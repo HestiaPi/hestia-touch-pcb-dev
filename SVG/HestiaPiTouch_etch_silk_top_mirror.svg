@@ -1,0 +1,733 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" y="0in" viewBox="0 0 276 196" baseProfile="tiny" xmlns:svg="http://www.w3.org/2000/svg" x="0in" width="3.83333in" version="1.2"  height="2.72222in">
+ <g transform="matrix(-1, 0, 0, 1, 276, 0)">
+  <g partID="58242">
+   <g transform="matrix(1, 0, 0, 1, -65.6499, -142.492)">
+    <g id="silkscreen">
+     <g stroke-opacity="1" stroke="black" fill="none" stroke-width="0.799999">
+      <path stroke-opacity="1" d="m98.3717,149.643,-0.111824,125.218c-26.0948,-0.01216,-39.4994,31.9933,-20.7002,50.4645,19.1164,19.1563,50.9833,5.02222,50.7113,-20.494l22.1515,-0.0813759c1.37794,0.00967999,1.82617,-0.681791,1.80234,-1.75779l0,-63.4422,93.5499,0,0,63.2896c-0.02416,1.26763,0.898783,1.92338,1.91141,1.91037l89.8687,0c0.973159,0.004,1.75278,-0.835935,1.76981,-1.81881l0,-156.931,-237.194,0c-1.89102,-0.04232,-3.71693,0.833415,-3.75924,3.64263z" stroke="black" fill="none" id="rect3860-6"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="58240">
+   <g transform="matrix(1, 0, 0, 1, -4.70032, 0.817434)">
+    <g id="board">
+     <g>
+      <path d="m37.575,2.825,0,128.65C21.3237,131.65,8.19999,144.882,8.19999,161.175c0,16.402,13.298,29.7,29.7,29.7,16.2674,0,29.4593,-13.0838,29.675,-29.3l23.85,0,0,-65.1999,93.5499,0,0,65.1999,93.5499,0,0,-158.75,-240.95,0z" stroke="black" fill="none" id="boardoutline" stroke-width="0.5"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854663750">
+   <g transform="translate(33.7688,87.3924)">
+    <g id="silkscreen">
+     <metadata id="metadata3147">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+       <cc:Work xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="" xmlns:cc="http://creativecommons.org/ns#">
+        <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+       </cc:Work>
+      </rdf:RDF>
+     </metadata>
+     <defs id="defs3145"/>
+     <image y="0" id="image3149" x="0" href="data:image/png;base64,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" width="929" height="928"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854663830">
+   <g transform="translate(38.5766,93.6442)">
+    <g id="silkscreen">
+     <text font-family="OCRA" y="2.31926" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="2.57696" x="48.9622" stroke-width="0">www.hestiapi.com | HestiaPi Touch v3.0</text>
+    </g>
+   </g>
+  </g>
+  <g partID="854646590">
+   <g transform="translate(59.6612,28.9323)">
+    <g id="silkscreen">
+     <text font-family="OCRA" y="6.47362" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" x="61.1399" font-size="7.19293" stroke-width="0">Raspberry Pi Zero</text>
+    </g>
+   </g>
+  </g>
+  <g partID="854598942">
+   <g transform="translate(6.7076,166.583)">
+    <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,0,0)">
+     <g id="silkscreen" gorn="0.2">
+      <line x1="1.44" stroke="black" y1="1.44" y2="30.24" x2="1.44" stroke-width="0.72"/>
+      <line x1="1.44" stroke="black" y1="30.24" y2="30.24" x2="8.64" stroke-width="0.72"/>
+      <line x1="8.64" stroke="black" y1="30.24" y2="1.44" x2="8.64" stroke-width="0.72"/>
+      <line x1="8.64" stroke="black" y1="1.44" y2="1.44" x2="1.44" stroke-width="0.72"/>
+      <line x1="1.44" stroke="black" y1="3.96" y2="1.44" x2="3.96" stroke-width="0.36"/>
+      <!-- 120 -->
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854597791">
+   <g transform="translate(38.5586,167.367)">
+    <g transform="matrix(-0.707107,-0.707107,0.707107,-0.707107,0,0)">
+     <g id="silkscreen">
+      <rect stroke-opacity="1" y="0.141732" stroke="black" fill="none" id="silkscreen" x="0.141732" width="14.1732" height="6.23622" stroke-width="0.283465"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854602180">
+   <g transform="translate(7.5456,169.098)">
+    <g id="silkscreen">
+     <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">+</text>
+    </g>
+   </g>
+  </g>
+  <g partID="854602200">
+   <g transform="translate(19.45,184.437)">
+    <g id="silkscreen">
+     <text font-family="OCRA" y="2.20895" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="2.45438" x="3.68158" stroke-width="0">SDA</text>
+    </g>
+   </g>
+  </g>
+  <g partID="854602110">
+   <g transform="translate(14.8496,178.999)">
+    <g id="silkscreen">
+     <text font-family="OCRA" y="2.20895" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="2.45438" x="3.68158" stroke-width="0">SCL</text>
+    </g>
+   </g>
+  </g>
+  <g partID="854602090">
+   <g transform="translate(12.0168,173.967)">
+    <g id="silkscreen">
+     <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">-</text>
+    </g>
+   </g>
+  </g>
+  <g partID="110030">
+   <g transform="translate(41.8462,172.268)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">-</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="110010">
+   <g transform="translate(37.257,167.238)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="3.57813" stroke-width="0">NC</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854649660">
+   <g transform="translate(55.7062,122.603)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">W</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854649650">
+   <g transform="translate(55.7068,108.222)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">H</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="109990">
+   <g transform="translate(31.9234,161.582)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">D</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="109970">
+   <g transform="translate(26.05,157.219)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">+</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="109600">
+   <g transform="translate(82.2629,108.17)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">H</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="109560">
+   <g transform="translate(82.2623,122.55)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">W</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854649690">
+   <g transform="translate(55.9905,152.224)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">N</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854649680">
+   <g transform="translate(55.9905,136.817)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">L</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854649670">
+   <g transform="translate(55.9766,144.239)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">~</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854602220">
+   <g transform="translate(82.5328,144.186)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">~</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854616600">
+   <g transform="translate(82.5466,136.764)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">L</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854616520">
+   <g transform="translate(82.5466,152.171)">
+    <g transform="matrix(1,0,0,1,0,0)">
+     <g id="silkscreen">
+      <text font-family="OCRA" y="3.22032" text-anchor="middle" xmlns:xml="http://www.w3.org/XML/1998/namespace" fill="black" xml:space="preserve" id="label" font-size="3.57813" x="1.78906" stroke-width="0">N</text>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="70202">
+   <g transform="translate(273.311,103.857)">
+    <g transform="matrix(0,1,-1,0,0,0)">
+     <g transform="matrix(1, 0, 0, 1, 0, -795.118)">
+      <g id="silkscreen">
+       <g>
+        <g transform="matrix(1, 0, 0, 1, 0, 795.118)">
+         <g id="0.3.0.0">
+          <path stroke-opacity="1" d="m0,46.7717,63.7795,0,0,-46.7717,-63.7795,0z" stroke="black" fill="none" id="path3761" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="0.79937"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="70182">
+   <g transform="translate(226.476,103.913)">
+    <g transform="matrix(0,1,-1,0,0,0)">
+     <g transform="matrix(1, 0, 0, 1, 0, -795.118)">
+      <g id="silkscreen">
+       <g>
+        <g transform="matrix(1, 0, 0, 1, 0, 795.118)">
+         <g id="0.3.0.0">
+          <path stroke-opacity="1" d="m0,46.7717,63.7795,0,0,-46.7717,-63.7795,0z" stroke="black" fill="none" id="path3761" style="stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="0.79937"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="58242">
+   <g transform="matrix(1, 0, 0, 1, -65.6499, -142.492)">
+    <g id="silkscreen">
+     <g stroke-opacity="1" stroke="black" fill="none" stroke-width="0.799999">
+      <path stroke-opacity="1" d="m98.3717,149.643,-0.111824,125.218c-26.0948,-0.01216,-39.4994,31.9933,-20.7002,50.4645,19.1164,19.1563,50.9833,5.02222,50.7113,-20.494l22.1515,-0.0813759c1.37794,0.00967999,1.82617,-0.681791,1.80234,-1.75779l0,-63.4422,93.5499,0,0,63.2896c-0.02416,1.26763,0.898783,1.92338,1.91141,1.91037l89.8687,0c0.973159,0.004,1.75278,-0.835935,1.76981,-1.81881l0,-156.931,-237.194,0c-1.89102,-0.04232,-3.71693,0.833415,-3.75924,3.64263z" stroke="black" fill="none" id="rect3860-6"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g id="partLabel" partID="109390">
+   <g transform="translate(28.1233,144.677)">
+    <g font-weight="normal" font-family="'OCRA'" stroke="none" fill="#000000" id="silkscreenLabel" font-style="normal" fill-opacity="1" font-size="5">
+     <text y="3.75" x="0">DHT</text>
+    </g>
+   </g>
+  </g>
+  <g id="partLabel" partID="109790">
+   <g transform="translate(44.5821,161.538)">
+    <g font-weight="normal" font-family="'OCRA'" stroke="none" fill="#000000" id="silkscreenLabel" font-style="normal" fill-opacity="1" font-size="5">
+     <text y="3.75" x="0">Humi!</text>
+    </g>
+   </g>
+  </g>
+  <g id="partLabel" partID="854597790">
+   <g transform="translate(37.9805,153.063)">
+    <g font-weight="normal" font-family="'OCRA'" stroke="none" fill="#000000" id="silkscreenLabel" font-style="normal" fill-opacity="1" font-size="5">
+     <text y="3.75" x="0">R3</text>
+    </g>
+   </g>
+  </g>
+  <g id="partLabel" partID="854598940">
+   <g transform="translate(6.5224,154.647)">
+    <g font-weight="normal" font-family="'OCRA'" stroke="none" fill="#000000" id="silkscreenLabel" font-style="normal" fill-opacity="1" font-size="5">
+     <text y="3.75" x="0">BME</text>
+    </g>
+   </g>
+  </g>
+  <g partID="854664581">
+   <g transform="translate(216.716,130.119)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854623341">
+   <g transform="translate(264.062,130.482)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854628251">
+   <g transform="translate(38.1405,26.0798)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854629621">
+   <g transform="translate(52.1207,53.9792)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854631021">
+   <g transform="translate(44.7734,37.2687)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854643541">
+   <g transform="translate(32.649,7.95644)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854643711">
+   <g transform="translate(43.607,8.88148)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854598941">
+   <g transform="translate(6.7076,166.583)">
+    <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,0,0)">
+     <g id="copper1" gorn="0.3">
+      <g id="copper0" gorn="0.3.0">
+       <circle stroke="white" fill="white" cx="5.04" cy="5.04" id="connector0pin" r="2.088" gorn="0.3.0.0" stroke-width="2.16"/>
+       <circle stroke="white" fill="white" cx="5.04" cy="12.24" id="connector1pin" r="2.088" gorn="0.3.0.1" stroke-width="2.16"/>
+       <circle stroke="white" fill="white" cx="5.04" cy="19.44" id="connector2pin" r="2.088" gorn="0.3.0.2" stroke-width="2.16"/>
+       <circle stroke="white" fill="white" cx="5.04" cy="26.64" id="connector3pin" r="2.088" gorn="0.3.0.3" stroke-width="2.16"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854599431">
+   <g transform="translate(32.9169,56.2477)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854597790">
+   <g transform="translate(38.5586,167.367)">
+    <g transform="matrix(-0.707107,-0.707107,0.707107,-0.707107,0,0)">
+     <g id="copper1">
+      <rect y="0.566929" stroke="white" fill="white" id="connector0pad" fill-opacity="1" x="0.566929" width="4.53543" height="5.38583" stroke-width="0.72"/>
+      <rect y="0.566929" stroke="white" fill="white" id="connector1pad" fill-opacity="1" x="9.35433" width="4.53543" height="5.38583" stroke-width="0.72"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="109391">
+   <g transform="translate(10.7411,164.783)">
+    <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,0,0)">
+     <g id="copper1">
+      <circle stroke="white" fill="white" cx="13.029" cy="32.333" id="connector11pad" r="2.16" stroke-width="1.72"/>
+      <circle stroke="white" fill="white" cx="13.029" cy="25.134" id="connector10pad" r="2.16" stroke-width="1.72"/>
+      <circle stroke="white" fill="white" cx="13.029" cy="17.934" id="connector9pad" r="2.16" stroke-width="1.72"/>
+      <circle stroke="white" fill="white" cx="13.029" cy="10.734" id="connector8pad" r="2.16" stroke-width="1.72"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="109791">
+   <g transform="translate(50.8713,165.962)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="4.31559" cy="4.31559" id="connector0pin" r="1.99559" stroke-width="2.16"/>
+    </g>
+   </g>
+  </g>
+  <g partID="111581">
+   <g transform="translate(217.413,90.2978)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="4.31559" cy="4.31559" id="connector0pin" r="1.99559" stroke-width="2.16"/>
+    </g>
+   </g>
+  </g>
+  <g partID="111561">
+   <g transform="translate(261.046,90.265)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="4.31559" cy="4.31559" id="connector0pin" r="1.99559" stroke-width="2.16"/>
+    </g>
+   </g>
+  </g>
+  <g partID="111541">
+   <g transform="translate(232.606,6.69631)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="4.31559" cy="4.31559" id="connector0pin" r="1.99559" stroke-width="2.16"/>
+    </g>
+   </g>
+  </g>
+  <g partID="111461">
+   <g transform="translate(246.792,6.66491)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="4.31559" cy="4.31559" id="connector0pin" r="1.99559" stroke-width="2.16"/>
+    </g>
+   </g>
+  </g>
+  <g partID="117681">
+   <g transform="translate(166.154,59.8725)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="119311">
+   <g transform="translate(81.8584,24.1815)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="120591">
+   <g transform="translate(200.874,90.0146)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="120721">
+   <g transform="translate(242.913,53.053)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="121991">
+   <g transform="translate(222.886,99.137)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854584881">
+   <g transform="translate(256.336,65.4201)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854586381">
+   <g transform="translate(265.74,76.4326)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854586481">
+   <g transform="translate(239.806,89.8714)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="3.01733" cy="3.01733" id="connector0pin" r="0.992124" stroke-width="1.57039"/>
+    </g>
+   </g>
+  </g>
+  <g partID="62851">
+   <g transform="translate(81.9994,161.635)">
+    <g transform="matrix(-1,0,0,-1,0,0)">
+     <g transform="matrix(1, 0, 0, 1, -10.08, -1.08)">
+      <g id="copper1" gorn="0.1">
+       <g id="copper0" gorn="0.1.0">
+        <rect stroke-opacity="1" y="6.84" stroke="white" fill="white" id="square" x="12.24" width="4.32" gorn="0.1.0.0" height="4.32" stroke-width="2.16"/>
+        <circle stroke-opacity="1" stroke="white" fill="white" id="connector0pin" cy="9" cx="14.4" r="2.16" gorn="0.1.0.1" stroke-width="2.16"/>
+        <circle stroke-opacity="1" stroke="white" fill="white" id="connector1pin" cy="23.4" cx="14.4" r="2.16" gorn="0.1.0.2" stroke-width="2.16"/>
+        <circle stroke-opacity="1" stroke="white" fill="white" id="connector2pin" cy="37.8" cx="14.4" r="2.16" gorn="0.1.0.3" stroke-width="2.16"/>
+        <circle stroke-opacity="1" stroke="white" fill="white" id="connector3pin" cy="52.2" cx="14.4" r="2.16" gorn="0.1.0.4" stroke-width="2.16"/>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="70201">
+   <g transform="translate(273.311,103.857)">
+    <g transform="matrix(0,1,-1,0,0,0)">
+     <g transform="matrix(1, 0, 0, 1, 0, -795.118)">
+      <g id="copper1">
+       <g>
+        <g transform="matrix(1, 0, 0, 1, 0, 795.118)">
+         <g id="0.3.1.0">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="connector2pin" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 5.81102, 812.126)">
+         <g id="0.3.1.1">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="path3782-7" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 40.252, 812.126)">
+         <g id="0.3.1.2">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="path3782-7-5" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 5.81102, 812.126)">
+         <g id="0.3.1.3">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="connector1pin" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 40.252, 812.126)">
+         <g id="0.3.1.4">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="connector0pin" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, -1, 5.81102, 824.882)">
+         <g id="0.3.1.5">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="connector4pin" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, -1, 40.252, 824.882)">
+         <g id="0.3.1.6">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="connector5pin" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="70181">
+   <g transform="translate(226.476,103.913)">
+    <g transform="matrix(0,1,-1,0,0,0)">
+     <g transform="matrix(1, 0, 0, 1, 0, -795.118)">
+      <g id="copper1">
+       <g>
+        <g transform="matrix(1, 0, 0, 1, 0, 795.118)">
+         <g id="0.3.1.0">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="connector2pin" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 5.81102, 812.126)">
+         <g id="0.3.1.1">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="path3782-7" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 40.252, 812.126)">
+         <g id="0.3.1.2">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="path3782-7-5" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 5.81102, 812.126)">
+         <g id="0.3.1.3">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="connector1pin" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 40.252, 812.126)">
+         <g id="0.3.1.4">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="connector0pin" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, -1, 5.81102, 824.882)">
+         <g id="0.3.1.5">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="connector4pin" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+        <g transform="matrix(1, 0, 0, -1, 40.252, 824.882)">
+         <g id="0.3.1.6">
+          <path stroke-opacity="1" d="m10.4882,23.3858a3.25984,3.25984,0,1,1,-6.51969,0,3.25984,3.25984,0,1,1,6.51969,0z" stroke="white" fill="white" id="connector5pin" style="opacity:0.98000004;stroke-miterlimit:4;stroke-dasharray:none" stroke-width="3.55465"/>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="67811">
+   <g transform="translate(41.9856,28.809)">
+    <g transform="matrix(0,-1,1,0,0,0)">
+     <g id="copper1">
+      <rect y="12.1752" stroke="white" fill="white" id="square" x="6.7392" r="285" width="4.104" height="4.104" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector35pin" cx="15.9912" cy="14.2272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector34pin" cx="15.9912" cy="21.4272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector33pin" cx="15.9912" cy="28.6272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector32pin" cx="15.9912" cy="35.8272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector31pin" cx="15.9912" cy="43.0272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector30pin" cx="15.9912" cy="50.2272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector29pin" cx="15.9912" cy="57.4272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector28pin" cx="15.9912" cy="64.6272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector27pin" cx="15.9912" cy="71.8272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector26pin" cx="15.9912" cy="79.0272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector25pin" cx="15.9912" cy="86.2272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector24pin" cx="15.9912" cy="93.4272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector23pin" cx="15.9912" cy="100.627" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector22pin" cx="15.9912" cy="107.827" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector21pin" cx="15.9912" cy="115.027" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector20pin" cx="15.9912" cy="122.227" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector19pin" cx="15.9912" cy="129.427" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector18pin" cx="15.9912" cy="136.627" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector0pin" cx="8.7912" cy="14.2272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector1pin" cx="8.7912" cy="21.4272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector2pin" cx="8.7912" cy="28.6272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector3pin" cx="8.7912" cy="35.8272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector4pin" cx="8.7912" cy="43.0272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector5pin" cx="8.7912" cy="50.2272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector6pin" cx="8.7912" cy="57.4272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector7pin" cx="8.7912" cy="64.6272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector8pin" cx="8.7912" cy="71.8272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector9pin" cx="8.7912" cy="79.0272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector10pin" cx="8.7912" cy="86.2272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector11pin" cx="8.7912" cy="93.4272" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector12pin" cx="8.7912" cy="100.627" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector13pin" cx="8.7912" cy="107.827" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector14pin" cx="8.7912" cy="115.027" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector15pin" cx="8.7912" cy="122.227" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector16pin" cx="8.7912" cy="129.427" r="2.052" stroke-width="1.944"/>
+      <circle stroke="white" fill="white" id="connector17pin" cx="8.7912" cy="136.627" r="2.052" stroke-width="1.944"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g partID="854645361">
+   <g transform="translate(36.3018,76.4894)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="5.14331" cy="5.14331" id="nonconn0" r="3.54331" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854646571">
+   <g transform="translate(200.547,76.3718)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="5.14331" cy="5.14331" id="nonconn0" r="3.54331" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854663731">
+   <g transform="translate(107.903,36.4117)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="4.43465" cy="4.43465" id="nonconn0" r="2.83465" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854663591">
+   <g transform="translate(107.903,49.3477)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="4.43465" cy="4.43465" id="nonconn0" r="2.83465" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854663681">
+   <g transform="translate(95.285,49.3477)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="4.43465" cy="4.43465" id="nonconn0" r="2.83465" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854663631">
+   <g transform="translate(120.459,49.3477)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="4.43465" cy="4.43465" id="nonconn0" r="2.83465" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854663611">
+   <g transform="translate(107.903,62.2494)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="4.43465" cy="4.43465" id="nonconn0" r="2.83465" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854662351">
+   <g transform="translate(112.708,41.2735)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="5.85197" cy="5.85197" id="nonconn0" r="4.25197" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854662341">
+   <g transform="translate(100.233,41.2735)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="5.85197" cy="5.85197" id="nonconn0" r="4.25197" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854662321">
+   <g transform="translate(112.708,54.426)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="5.85197" cy="5.85197" id="nonconn0" r="4.25197" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854662301">
+   <g transform="translate(100.233,54.426)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="5.85197" cy="5.85197" id="nonconn0" r="4.25197" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="854645341">
+   <g transform="translate(200.61,11.4006)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="5.14331" cy="5.14331" id="nonconn0" r="3.54331" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+  <g partID="68101">
+   <g transform="translate(36.3183,11.1982)">
+    <g id="copper1">
+     <circle stroke="white" fill="white" cx="5.14331" cy="5.14331" id="nonconn0" r="3.54331" stroke-width="0.72"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

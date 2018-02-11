@@ -1,5 +1,5 @@
 Drill report for /Users/paciotti/Documents/GitHub/hestia-touch-pcb-dev/HestiaPi-KiCAD/HestiaPi-KiCAD.kicad_pcb
-Created on Domenica 11 Febbraio 2018 12:25:36
+Created on Domenica 11 Febbraio 2018 15:57:54
 
 Copper Layer Stackup:
     =============================================================
@@ -19,10 +19,10 @@ Drill file 'HestiaPi-KiCAD.drl' contains
     Total plated holes count 76
 
 
-Drill file 'HestiaPi-KiCAD-NPTH.drl' contains
+Not plated through holes are merged with plated holes
     unplated through holes:
     =============================================================
-    T1  0,76mm  0,030"  (18 holes)
-    T2  2,75mm  0,108"  (5 holes)
+    T6  0,76mm  0,030"  (18 holes)
+    T7  2,75mm  0,108"  (5 holes)
 
     Total unplated holes count 23

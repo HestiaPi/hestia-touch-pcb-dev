@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by PcbNew   date = Domenica 11 Febbraio 2018 12:24:20
+
+BeginCmp
+TimeStamp = 5A594124
+Path = /5A461001
+Reference = J1;
+ValeurCmp = Raspberry_Pi_2_3;
+IdModule  = RaspberryPi_Zero_LCD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A47DC39
+Path = /5A46D703
+Reference = K1;
+ValeurCmp = G5LE;
+IdModule  = Relays_THT:Relay_SPDT_OMRON-G5LE-1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A475261
+Path = /5A46D90F
+Reference = D1;
+ValeurCmp = M7;
+IdModule  = Diodes_SMD:D_SMB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A475267
+Path = /5A46D85E
+Reference = D2;
+ValeurCmp = M7;
+IdModule  = Diodes_SMD:D_SMB;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A47DC41
+Path = /5A46D7BF
+Reference = K2;
+ValeurCmp = G5LE;
+IdModule  = Relays_THT:Relay_SPDT_OMRON-G5LE-1;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A47E909
+Path = /5A47E4E0
+Reference = Q1;
+ValeurCmp = BC847;
+IdModule  = TO_SOT_Packages_SMD:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A47E910
+Path = /5A47E5CE
+Reference = Q2;
+ValeurCmp = BC847;
+IdModule  = TO_SOT_Packages_SMD:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A47E916
+Path = /5A47EBEF
+Reference = R1;
+ValeurCmp = 1.2K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A47E91C
+Path = /5A47ECAD
+Reference = R2;
+ValeurCmp = 1.2K;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A477138
+Path = /5A46DEF6
+Reference = U1;
+ValeurCmp = HLK-PM01;
+IdModule  = Personale:ACDC-Conv_Hi-Link_HLK-PM01;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4C1AB7
+Path = /5A4C06B2
+Reference = J4;
+ValeurCmp = GS3;
+IdModule  = Connectors:GS3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A4C1C33
+Path = /5A4C0BFD
+Reference = J5;
+ValeurCmp = Sensor;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A593F83
+Path = /5A591CBC
+Reference = MK1;
+ValeurCmp = H;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5A475275
+Path = /5A46DBC5
+Reference = J3;
+ValeurCmp = Cables;
+IdModule  = w_conn_screw:mors_4p;
+EndCmp
+
+EndListe

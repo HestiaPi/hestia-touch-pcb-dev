@@ -8,6 +8,8 @@ You can do all this securely and with confidence your private data stays private
 
 HestiaPi Touch is compatible with many devices and home automation systems and can serve as a central point of control that ties them all together in your home.
 
+For **HestiaPi Touch ONE** select the "ONE" folder above.
+
 # Useful links
 
 * [Main website](https://hestiapi.com/)

@@ -23,3 +23,9 @@
 - Added RoHS markings to match the lead-free solder being used in production
 - Added silkscreen for Heat Pump Mode
 - Fixed silkscreen typo ("HVAC Mode", instead of "HVAC Model")
+
+2.56
+
+- WARNING: PCBs have not been manufactured and tested, only designed
+- Fixed the ground issue on the 5th relay
+- Minor labeling changes to make the BOM easier to read

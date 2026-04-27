@@ -1,0 +1,15 @@
+2.52
+
+- PCB design files were lost :-(
+- Power switch added so the Pi Zero 2 can be turned off/on
+- Made US power supply holes larger for easier assembly
+
+2.53
+
+- PCB design files were lost :-(
+
+2.54
+
+- ERROR: GPIO pins are reversed; only 3 relays work with stock SD card image
+- Switched to ribbon cable for easier installation
+- Added a 5th relay & switched to a 1x7 terminal block

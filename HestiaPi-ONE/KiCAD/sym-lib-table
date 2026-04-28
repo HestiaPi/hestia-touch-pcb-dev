@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "rpi_gpio")(type "KiCad")(uri "/home/user/git/RPi_Zero_pHat_Template/symbols/rpi_gpio.kicad_sym")(options "")(descr ""))
+  (lib (name "Panasonic_AQ-G_relay")(type "KiCad")(uri "${KIPRJMOD}/symbols/Panasonic_AQ-G_relay.kicad_sym")(options "")(descr ""))
+  (lib (name "library")(type "KiCad")(uri "${KIPRJMOD}/library.kicad_sym")(options "")(descr ""))
+)

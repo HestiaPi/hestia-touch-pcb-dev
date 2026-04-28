@@ -1,0 +1,31 @@
+2.52
+
+- PCB design files were lost :-(
+- Power switch added so the Pi Zero 2 can be turned off/on
+- Made US power supply holes larger for easier assembly
+
+2.53
+
+- PCB design files were lost :-(
+
+2.54
+
+- ERROR: GPIO pins are reversed; only 3 relays work with stock SD card image
+  - 4th relay can work if the pin mappings are changed in OpenHAB
+- Switched to ribbon cable for easier installation
+- Added a 5th relay & switched to a 1x7 terminal block
+
+2.55
+
+- ERROR: Ground not connected on 5th relay
+  - Jumper to ground on relay 1 to work around this
+- Corrected relays 4 & 5 to go to correct header pins on the pi
+- Added RoHS markings to match the lead-free solder being used in production
+- Added silkscreen for Heat Pump Mode
+- Fixed silkscreen typo ("HVAC Mode", instead of "HVAC Model")
+
+2.56
+
+- WARNING: PCBs have not been manufactured and tested, only designed
+- Fixed the ground issue on the 5th relay
+- Minor labeling changes to make the BOM easier to read
